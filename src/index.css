@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1A1C1E;
+  --color-line: #D1D5DB;
+  --color-critical: #DC2626;
+  --color-high: #EA580C;
+  --color-medium: #D97706;
+  --color-low: #65A30D;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+}
+
+body {
+  background-color: #F3F4F6;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
